@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+
+        <TextView
+            android:id="@+id/patName"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/patAge"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patName"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/patCard"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patAge"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/patDiagnosis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patCard"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/patDoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patDiagnosis"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/patHospitalization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patDoc"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/patLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patHospitalization"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/patAge"
+            android:layout_marginBottom="0dp"
+            android:text="@string/age"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/patCard"
+            android:layout_marginBottom="0dp"
+            android:text="@string/card"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/patDiagnosis"
+            android:layout_marginBottom="0dp"
+            android:text="@string/diagnose"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/patDoc"
+            android:layout_marginBottom="0dp"
+            android:text="@string/doctor"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/patHospitalization"
+            android:layout_marginBottom="1dp"
+            android:text="@string/hospitalization"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/patLocation"
+            android:layout_marginBottom="0dp"
+            android:text="@string/room"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

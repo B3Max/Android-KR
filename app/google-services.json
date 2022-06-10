@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "109612286832",
+    "project_id": "hospitalpatients-fbec2",
+    "storage_bucket": "hospitalpatients-fbec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109612286832:android:af7fa059e4710a1c3805b5",
+        "android_client_info": {
+          "package_name": "com.example.hospitalpatients"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109612286832-b6r7f2shrg4vgvqorq236d3tbrvufje1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACyrKSaboFhkGnttApetTAqtvY1syq-j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109612286832-b6r7f2shrg4vgvqorq236d3tbrvufje1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109612286832:android:bcd2680b354270e93805b5",
+        "android_client_info": {
+          "package_name": "com.mycompany.hospitalpatients"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109612286832-b6r7f2shrg4vgvqorq236d3tbrvufje1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACyrKSaboFhkGnttApetTAqtvY1syq-j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109612286832-b6r7f2shrg4vgvqorq236d3tbrvufje1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
