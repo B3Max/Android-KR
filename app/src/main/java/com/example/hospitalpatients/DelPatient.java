@@ -37,7 +37,7 @@ public class DelPatient extends AppCompatActivity {
                 Snackbar.make(del_patient_element, "Введите номер карты", Snackbar.LENGTH_SHORT).show();
             }
             else {
-                ref.child("Patients").orderByChild("cardNumber").equalTo(cardNumber).addListenerForSingleValueEvent(
+                ref.child("Patients").orderByChild("cardnumber").equalTo(cardNumber).addListenerForSingleValueEvent(
                         new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -63,6 +63,5 @@ public class DelPatient extends AppCompatActivity {
     }
     private void init(){
         delCard = findViewById(R.id.delCard);
-        Button buttonDel = findViewById(R.id.buttonDel);
     }
 }
